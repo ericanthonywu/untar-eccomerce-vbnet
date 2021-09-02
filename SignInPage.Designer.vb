@@ -26,15 +26,15 @@ Partial Class SignInPage
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.sign_in_btn = New System.Windows.Forms.Button()
+        Me.create_account_link = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.forgot_password_link = New System.Windows.Forms.Label()
+        Me.remember_me_checkbox = New System.Windows.Forms.CheckBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.email_txt = New System.Windows.Forms.TextBox()
+        Me.password_txt = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -68,78 +68,62 @@ Partial Class SignInPage
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Make sure your accout secure !"
         '
-        'Panel1
+        'sign_in_btn
         '
-        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel1.Location = New System.Drawing.Point(533, 118)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(248, 34)
-        Me.Panel1.TabIndex = 3
+        Me.sign_in_btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.sign_in_btn.FlatAppearance.BorderSize = 0
+        Me.sign_in_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.sign_in_btn.Font = New System.Drawing.Font("Malgun Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.sign_in_btn.ForeColor = System.Drawing.SystemColors.Info
+        Me.sign_in_btn.Location = New System.Drawing.Point(533, 214)
+        Me.sign_in_btn.Name = "sign_in_btn"
+        Me.sign_in_btn.Size = New System.Drawing.Size(259, 45)
+        Me.sign_in_btn.TabIndex = 5
+        Me.sign_in_btn.Text = "Sign In"
+        Me.sign_in_btn.UseVisualStyleBackColor = False
         '
-        'Panel2
+        'create_account_link
         '
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel2.Location = New System.Drawing.Point(533, 170)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(248, 34)
-        Me.Panel2.TabIndex = 4
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Malgun Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.ForeColor = System.Drawing.SystemColors.Info
-        Me.Button1.Location = New System.Drawing.Point(533, 246)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(248, 45)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Sign In"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Malgun Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(688, 357)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(94, 17)
-        Me.Label5.TabIndex = 13
-        Me.Label5.Text = "Create Accout"
+        Me.create_account_link.AutoSize = True
+        Me.create_account_link.Font = New System.Drawing.Font("Malgun Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.create_account_link.ForeColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.create_account_link.Location = New System.Drawing.Point(688, 325)
+        Me.create_account_link.Name = "create_account_link"
+        Me.create_account_link.Size = New System.Drawing.Size(102, 17)
+        Me.create_account_link.TabIndex = 13
+        Me.create_account_link.Text = "Create Account"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label4.Location = New System.Drawing.Point(533, 359)
+        Me.Label4.Location = New System.Drawing.Point(533, 327)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(89, 15)
         Me.Label4.TabIndex = 12
         Me.Label4.Text = "Not a Member?"
         '
-        'Label3
+        'forgot_password_link
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Malgun Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(682, 305)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(110, 15)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Forget Password?"
+        Me.forgot_password_link.AutoSize = True
+        Me.forgot_password_link.Font = New System.Drawing.Font("Malgun Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.forgot_password_link.ForeColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.forgot_password_link.Location = New System.Drawing.Point(688, 273)
+        Me.forgot_password_link.Name = "forgot_password_link"
+        Me.forgot_password_link.Size = New System.Drawing.Size(110, 15)
+        Me.forgot_password_link.TabIndex = 11
+        Me.forgot_password_link.Text = "Forget Password?"
         '
-        'CheckBox1
+        'remember_me_checkbox
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.CheckBox1.Location = New System.Drawing.Point(533, 305)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(104, 19)
-        Me.CheckBox1.TabIndex = 10
-        Me.CheckBox1.Text = "Remember me"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.remember_me_checkbox.AutoSize = True
+        Me.remember_me_checkbox.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.remember_me_checkbox.Location = New System.Drawing.Point(533, 273)
+        Me.remember_me_checkbox.Name = "remember_me_checkbox"
+        Me.remember_me_checkbox.Size = New System.Drawing.Size(104, 19)
+        Me.remember_me_checkbox.TabIndex = 10
+        Me.remember_me_checkbox.Text = "Remember me"
+        Me.remember_me_checkbox.UseVisualStyleBackColor = True
         '
         'Label6
         '
@@ -161,21 +145,39 @@ Partial Class SignInPage
         Me.Label7.TabIndex = 15
         Me.Label7.Text = "Password"
         '
+        'email_txt
+        '
+        Me.email_txt.Location = New System.Drawing.Point(533, 120)
+        Me.email_txt.Name = "email_txt"
+        Me.email_txt.PlaceholderText = "Input your email here . . ."
+        Me.email_txt.Size = New System.Drawing.Size(259, 23)
+        Me.email_txt.TabIndex = 16
+        Me.email_txt.Padding = New Padding(5)
+        '
+        'password_txt
+        '
+        Me.password_txt.Location = New System.Drawing.Point(533, 173)
+        Me.password_txt.Name = "password_txt"
+        Me.password_txt.PlaceholderText = "Input your password . . ."
+        Me.password_txt.Size = New System.Drawing.Size(259, 23)
+        Me.password_txt.TabIndex = 17
+        Me.password_txt.Padding = New Padding(5)
+        '
         'SignInPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(850, 500)
+        Me.Controls.Add(Me.password_txt)
+        Me.Controls.Add(Me.email_txt)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.create_account_link)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.sign_in_btn)
+        Me.Controls.Add(Me.forgot_password_link)
+        Me.Controls.Add(Me.remember_me_checkbox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
@@ -191,13 +193,13 @@ Partial Class SignInPage
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Label5 As Label
+    Friend WithEvents sign_in_btn As Button
+    Friend WithEvents create_account_link As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents forgot_password_link As Label
+    Friend WithEvents remember_me_checkbox As CheckBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
+    Friend WithEvents email_txt As TextBox
+    Friend WithEvents password_txt As TextBox
 End Class

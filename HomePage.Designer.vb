@@ -27,11 +27,13 @@ Partial Class HomePage
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.sign_in_btn = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.SignedIn_label = New System.Windows.Forms.Label()
+        Me.signed_label = New System.Windows.Forms.Label()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -102,19 +104,19 @@ Partial Class HomePage
         Me.Label5.TabIndex = 13
         Me.Label5.Text = "Blog"
         '
-        'Button1
+        'sign_in_btn
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Malgun Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.ForeColor = System.Drawing.SystemColors.Info
-        Me.Button1.Location = New System.Drawing.Point(726, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(97, 30)
-        Me.Button1.TabIndex = 14
-        Me.Button1.Text = "Sign In"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.sign_in_btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.sign_in_btn.FlatAppearance.BorderSize = 0
+        Me.sign_in_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.sign_in_btn.Font = New System.Drawing.Font("Malgun Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.sign_in_btn.ForeColor = System.Drawing.SystemColors.Info
+        Me.sign_in_btn.Location = New System.Drawing.Point(726, 12)
+        Me.sign_in_btn.Name = "sign_in_btn"
+        Me.sign_in_btn.Size = New System.Drawing.Size(97, 30)
+        Me.sign_in_btn.TabIndex = 14
+        Me.sign_in_btn.Text = "Sign In"
+        Me.sign_in_btn.UseVisualStyleBackColor = False
         '
         'PictureBox2
         '
@@ -166,17 +168,41 @@ Partial Class HomePage
         Me.PictureBox1.TabStop = False
         Me.PictureBox1.Visible = False
         '
+        'SignedIn_label
+        '
+        Me.SignedIn_label.AutoSize = True
+        Me.SignedIn_label.Location = New System.Drawing.Point(726, 23)
+        Me.SignedIn_label.Name = "SignedIn_label"
+        Me.SignedIn_label.Size = New System.Drawing.Size(0, 15)
+        Me.SignedIn_label.TabIndex = 20
+        '
+        'signed_label
+        '
+        Me.signed_label.AutoSize = True
+        Me.signed_label.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.signed_label.Font = New System.Drawing.Font("Malgun Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.signed_label.ForeColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.signed_label.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.signed_label.Location = New System.Drawing.Point(726, 18)
+        Me.signed_label.Name = "signed_label"
+        Me.signed_label.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.signed_label.Size = New System.Drawing.Size(41, 21)
+        Me.signed_label.TabIndex = 21
+        Me.signed_label.Text = "Hi, !"
+        '
         'HomePage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.HighlightText
         Me.ClientSize = New System.Drawing.Size(850, 500)
+        Me.Controls.Add(Me.signed_label)
+        Me.Controls.Add(Me.SignedIn_label)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.sign_in_btn)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -198,9 +224,11 @@ Partial Class HomePage
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents sign_in_btn As Button
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents SignedIn_label As Label
+    Friend WithEvents signed_label As Label
 End Class

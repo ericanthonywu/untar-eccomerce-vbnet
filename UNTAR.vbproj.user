@@ -4,7 +4,7 @@
     <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="AboutUsePage.vb">
+    <Compile Update="AboutUsPage.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="HomePage.vb">

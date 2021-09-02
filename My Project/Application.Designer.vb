@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.UNTAR.SignInPage
+            Me.MainForm = Global.UNTAR.HomePage
         End Sub
     End Class
 End Namespace

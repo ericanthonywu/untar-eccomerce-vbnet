@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>UNTAR</RootNamespace>
-    <StartupObject>UNTAR.SignInPage</StartupObject>
+    <StartupObject>UNTAR.HomePage</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <OptionCompare>Text</OptionCompare>
