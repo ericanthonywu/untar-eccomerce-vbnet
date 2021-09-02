@@ -118,8 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="attachment_94741222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\attachment_94741222.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_Developer_activity_re_39tg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_Developer_activity_re_39tg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="undraw_Real_time_sync_re_nky7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undraw_Real_time_sync_re_nky7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_the_world_is_mine_nb0e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_the_world_is_mine_nb0e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cool-Male-Avatars-04_34321" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cool-Male-Avatars-04_34321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,10 +136,7 @@
   <data name="undraw_connected_world_wuay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undraw_connected_world_wuay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="undraw_the_world_is_mine_nb0e" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\undraw_the_world_is_mine_nb0e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="attachment_94741222" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\attachment_94741222.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="undraw_Team_spirit_re_yl1v" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_Team_spirit_re_yl1v.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

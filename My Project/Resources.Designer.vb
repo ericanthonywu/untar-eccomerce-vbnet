@@ -93,9 +93,29 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property undraw_Developer_activity_re_39tg() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("undraw_Developer_activity_re_39tg", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property undraw_Real_time_sync_re_nky7() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("undraw_Real_time_sync_re_nky7", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property undraw_Team_spirit_re_yl1v() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("undraw_Team_spirit_re_yl1v", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

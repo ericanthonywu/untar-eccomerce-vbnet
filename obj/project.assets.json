@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Afina\\source\\repos\\UNTAR\\UNTAR.vbproj",
+      "projectUniqueName": "G:\\AFINA\\potatoeshine\\school\\untar\\before-veg-out\\semester3\\analysis & design of information systems\\vb\\untar-eccomerce-vbnet\\UNTAR.vbproj",
       "projectName": "UNTAR",
-      "projectPath": "C:\\Users\\Afina\\source\\repos\\UNTAR\\UNTAR.vbproj",
+      "projectPath": "G:\\AFINA\\potatoeshine\\school\\untar\\before-veg-out\\semester3\\analysis & design of information systems\\vb\\untar-eccomerce-vbnet\\UNTAR.vbproj",
       "packagesPath": "C:\\Users\\Afina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Afina\\source\\repos\\UNTAR\\obj\\",
+      "outputPath": "G:\\AFINA\\potatoeshine\\school\\untar\\before-veg-out\\semester3\\analysis & design of information systems\\vb\\untar-eccomerce-vbnet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

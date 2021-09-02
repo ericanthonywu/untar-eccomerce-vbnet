@@ -4,10 +4,19 @@
     <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="AboutUsePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="HomePage.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="OurProductPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SignInPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SignUpPage.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

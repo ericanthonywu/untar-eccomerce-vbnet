@@ -132,13 +132,13 @@ Partial Class HomePage
         Me.Label7.Font = New System.Drawing.Font("Malgun Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Label7.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Label7.Location = New System.Drawing.Point(39, 207)
+        Me.Label7.Location = New System.Drawing.Point(30, 204)
         Me.Label7.Name = "Label7"
         Me.Label7.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label7.Size = New System.Drawing.Size(430, 55)
         Me.Label7.TabIndex = 17
-        Me.Label7.Text = "Hello World percaya bahwa semua orang bisa mendapatkan energi murah dan ramah lin" &
-    "gkungan."
+        Me.Label7.Text = "Hello World believes that everyone can get cheap and environmentally friendly ene" &
+    "rgy."
         '
         'Label6
         '
@@ -146,13 +146,13 @@ Partial Class HomePage
         Me.Label6.Font = New System.Drawing.Font("Malgun Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label6.ForeColor = System.Drawing.Color.Navy
         Me.Label6.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Label6.Location = New System.Drawing.Point(39, 272)
+        Me.Label6.Location = New System.Drawing.Point(30, 259)
         Me.Label6.Name = "Label6"
         Me.Label6.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label6.Size = New System.Drawing.Size(402, 65)
         Me.Label6.TabIndex = 18
-        Me.Label6.Text = "Dengan solar PV, tidak hanya hemat listrik, anda juga membantu menjaga kelestaria" &
-    "n lingkungan kita bersama."
+        Me.Label6.Text = "With solar PV, not only do you save electricity, you also help preserve our envir" &
+    "onment together."
         '
         'PictureBox1
         '
