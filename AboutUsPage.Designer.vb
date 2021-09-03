@@ -172,7 +172,7 @@ Partial Class AboutUsPage
     "iendly electricity for Indonesia."
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'AboutUsePage
+        'AboutUsPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -189,7 +189,7 @@ Partial Class AboutUsPage
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "AboutUsePage"
+        Me.Name = "AboutUsPage"
         Me.Text = "AboutUsePage"
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

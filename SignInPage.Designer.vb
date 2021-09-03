@@ -152,16 +152,15 @@ Partial Class SignInPage
         Me.email_txt.PlaceholderText = "Input your email here . . ."
         Me.email_txt.Size = New System.Drawing.Size(259, 23)
         Me.email_txt.TabIndex = 16
-        Me.email_txt.Padding = New Padding(5)
         '
         'password_txt
         '
         Me.password_txt.Location = New System.Drawing.Point(533, 173)
         Me.password_txt.Name = "password_txt"
+        Me.password_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.password_txt.PlaceholderText = "Input your password . . ."
         Me.password_txt.Size = New System.Drawing.Size(259, 23)
         Me.password_txt.TabIndex = 17
-        Me.password_txt.Padding = New Padding(5)
         '
         'SignInPage
         '
