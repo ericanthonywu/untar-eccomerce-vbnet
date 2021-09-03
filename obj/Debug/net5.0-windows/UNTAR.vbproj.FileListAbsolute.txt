@@ -41,3 +41,26 @@ C:\Users\user\source\repos\projekeccomerce\projekeccomerce\obj\Debug\net5.0-wind
 C:\Users\user\source\repos\projekeccomerce\projekeccomerce\obj\Debug\net5.0-windows\UNTAR.AboutUsPage.resources
 C:\Users\user\source\repos\projekeccomerce\projekeccomerce\obj\Debug\net5.0-windows\UNTAR.OurProductPage.resources
 C:\Users\user\source\repos\projekeccomerce\projekeccomerce\obj\Debug\net5.0-windows\UNTAR.SignUpPage.resources
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\bin\Debug\net5.0-windows\UNTAR.exe
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\bin\Debug\net5.0-windows\UNTAR.deps.json
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\bin\Debug\net5.0-windows\UNTAR.runtimeconfig.json
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\bin\Debug\net5.0-windows\UNTAR.runtimeconfig.dev.json
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\bin\Debug\net5.0-windows\UNTAR.dll
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\bin\Debug\net5.0-windows\ref\UNTAR.dll
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\bin\Debug\net5.0-windows\UNTAR.pdb
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.vbproj.AssemblyReference.cache
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.AboutUsPage.resources
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.HomePage.resources
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.Resources.resources
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.OurProductPage.resources
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.SignInPage.resources
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.SignUpPage.resources
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.vbproj.GenerateResource.cache
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.GeneratedMSBuildEditorConfig.editorconfig
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.AssemblyInfoInputs.cache
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.AssemblyInfo.vb
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.vbproj.CoreCompileInputs.cache
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.dll
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\ref\UNTAR.dll
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.pdb
+G:\AFINA\potatoeshine\school\untar\before-veg-out\semester3\analysis & design of information systems\vb\untar-eccomerce-vbnet\obj\Debug\net5.0-windows\UNTAR.genruntimeconfig.cache

@@ -158,15 +158,14 @@ Partial Class HomePage
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackgroundImage = Global.UNTAR.My.Resources.Resources.undraw_the_world_is_mine_nb0e
+        Me.PictureBox1.BackgroundImage = Global.UNTAR.My.Resources.Resources.undraw_the_world_is_mine_nb0e1
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureBox1.Location = New System.Drawing.Point(451, 171)
+        Me.PictureBox1.Location = New System.Drawing.Point(454, 149)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(387, 317)
+        Me.PictureBox1.Size = New System.Drawing.Size(335, 283)
         Me.PictureBox1.TabIndex = 19
         Me.PictureBox1.TabStop = False
-        Me.PictureBox1.Visible = False
         '
         'SignedIn_label
         '
