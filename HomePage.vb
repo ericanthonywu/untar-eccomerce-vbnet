@@ -49,4 +49,18 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub HomePage_Activated(sender As Object, e As EventArgs) Handles MyBase.Activated
+        If SessionUser.currentUser IsNot "" Then
+            sign_in_btn.Hide()
+            signed_label.Text = "Hi, " + SessionUser.currentUser + " !"
+        Else
+            sign_in_btn.Show()
+            signed_label.Hide()
+        End If
+    End Sub
+
+    Private Sub HomePage_Enter(sender As Object, e As EventArgs) Handles MyBase.Enter
+        MessageBox.Show("on enter")
+    End Sub
 End Class

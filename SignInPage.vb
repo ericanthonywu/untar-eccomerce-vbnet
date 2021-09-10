@@ -18,8 +18,6 @@
             Me.Hide()
             HomePage.Show()
             HomePage.sign_in_btn.Hide()
-            HomePage.signed_label.Show()
-            HomePage.signed_label.Text = "Hi, " + SessionUser.currentUser + " !"
 
         Else
             MessageBox.Show(Me, "Username atau password salah", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
